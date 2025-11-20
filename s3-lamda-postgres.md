@@ -12,9 +12,9 @@
 
 - while creating a lyer we need to create a zip file of the psycopg2 library and attach it to the layer. 
 1. Set Up Your Environment 
-First, create a new directory for your layer: [inside-WSL]
-`mkdir -p psycopg2-layer/python`
-`cd psycopg2-layer/python`
+First, create a new directory for your layer: `inside-WSL`
+- `mkdir -p psycopg2-layer/python`
+- `cd psycopg2-layer/python`
 
 2. Install Psycopg2-Binary
 - for x86_64:
@@ -24,8 +24,8 @@ First, create a new directory for your layer: [inside-WSL]
 - change the python-version accordingly
 
 4. Package the Layer
-`cd ..`
-`zip -r psycopg2-layer.zip python`
+- `cd ..`
+- `zip -r psycopg2-layer.zip python`
 
 5. copy the zip file to desktop
 `cp ~/psycopg2-layer/psycopg2-layer.zip /mnt/c/Users/Gaurav/Desktop/`
